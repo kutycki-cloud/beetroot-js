@@ -9,7 +9,10 @@ body {
 }
 
 .wrapper {
+   width: 100%;
+   margin: 0 auto;
    display: flex;
+   text-align: center;
    flex-flow: row wrap;
 }
 
@@ -38,11 +41,19 @@ a:visited {
 }
 
 
+.hint {
+   color: #2dce00;
+   font-weight: normal;
+   text-align: center;
+   margin: 20px;
+}
+
 h1 {
    text-align: center;
 }
 
 .main__list {
+   text-align: left;
 }
 
 .main__list-item {
